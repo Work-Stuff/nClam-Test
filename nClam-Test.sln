@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nClam-Test", "nClam-Test\nClam-Test.csproj", "{6BD236F3-1807-42C6-AEB9-5680364EF18E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{22A14671-5ED9-42DE-9386-ADE6BD054AED}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\TestDocument.docx = TestFiles\TestDocument.docx
+		TestFiles\TestPhoto.jpeg = TestFiles\TestPhoto.jpeg
+		TestFiles\TestVideo.mov = TestFiles\TestVideo.mov
+		TestFiles\TestVirus.txt = TestFiles\TestVirus.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
