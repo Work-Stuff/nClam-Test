@@ -6,7 +6,7 @@ Project to test the capabilities of the nClam API
 1. Download the ClamAV server from [here](http://oss.netfarm.it/clamav/files/clamav-amd64-0.100.0.7z)
 2. Extract the binaries to `C:\clamav`
 3. Create an empty directory called `DB` in the `C:\clamav` directory
-4. From an administrator command prompt `cd` into `C:\clamav` directory and run the `freshclam` command. This will download the most up to date virus databases into the `DB` directory
+4. From an administrator command prompt `cd` into `C:\clamav` directory and run the `freshclam --no-dns` command. This will download the most up to date virus databases into the `DB` directory
 5. Start the ClamAV Service by running `clamd --install`
 6. Start the Updater Service by running `freshclam --install`
 7. Set the ClamAV Services to run automatically at startup as shown in the image below
